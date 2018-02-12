@@ -20,7 +20,7 @@ class Insert extends CI_Controller{
 	function tambah_aksi() {
 		$from = $this->input->post('from');
 		$to = $this->input->post('to');
-		$date = $this->input->post('depart');
+		$date = $this->input->post('depart_at');
 		$price = $this->input->post('prices');
 
 		$data = array(
@@ -49,7 +49,7 @@ class Insert extends CI_Controller{
 		$ruteid = $this->input->post('ruteid');
 		$from = $this->input->post('from');
 		$to = $this->input->post('to');
-		$depart_on = $this->input->post('depart');
+		$depart_at = $this->input->post('depart');
 		$price = $this->input->post('prices');
 		$data = array(
 			'rute_from' => $from,

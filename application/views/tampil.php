@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Show All Flight</title>
+	<title>LEVI Travel</title>
 	<style type="text/css">
 		td {
 			padding: 10px 20px;
